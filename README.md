@@ -29,17 +29,16 @@ cp -r i18n-generate-skill ~/.claude/skills/
 
 ## 📊  示例
 
-- 把 ./i18n.xlsx 生成到 ./src/i18n，输出格式为ts，工作表为 i18n
-
-常用参数：
-
-- `--formats "ts,json"`：同时输出多种格式
-- `--langs "sc,en,ja"`：只生成指定语言
-- `--key "key"`：指定 key 列名
-- `--ts-as-const`：TypeScript 输出加 `as const`
+- 示例1：
 
 ```bash
 把 ./i18n.xlsx 生成到 ./src/i18n，格式 ts
+```
+
+- 示例2
+
+```bash
+把 ./i18n.xlsx 生成到 ./src/i18n，输出格式为ts，只生成英语、中文、日语， 工作表为 i18n
 ```
 
 
