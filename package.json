@@ -1,0 +1,23 @@
+{
+  "name": "i18n-generate-skill",
+  "version": "1.0.0",
+  "description": "从 Excel 表格读取多语言翻译内容，并在指定目录生成 i18n 多语言文件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiuweikangdev/i18n-generate-skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiuweikangdev/i18n-generate-skill/issues"
+  },
+  "homepage": "https://github.com/qiuweikangdev/i18n-generate-skill#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
